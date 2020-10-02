@@ -1,6 +1,6 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
-import { Component } from "react";
+// tidied up imports
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 
 const formattedSeconds = (sec: number) => Math.floor(sec / 60) + ":" + ("0" + (sec % 60)).slice(-2);
 
